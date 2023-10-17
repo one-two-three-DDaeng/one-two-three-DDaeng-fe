@@ -26,11 +26,11 @@ export default function Home() {
 
         <div className="card bg-base-100 shadow-xl my-5">
           <div className="card-body">
-            <h2 className="card-title">영화 제목 맞추기</h2>
+            <h2 className="card-title">영화 명대사 빈칸 맞추기</h2>
             <div className="card-actions justify-end">
               <button
                 className="btn btn-error btn-outline btn-sm text-xs "
-                onClick={() => router.push("/timer")}
+                onClick={() => router.push("/movies/blank")}
               >
                 Start
               </button>
