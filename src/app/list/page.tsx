@@ -1,34 +1,46 @@
 export default function List() {
     return (
-        <div>
-            <header className="h-20 w-full border-b border-gray-300 px-60 flex">
-                <div className="self-center">
-                    <img src="/assets/imgs/ddaeng-small-logo.png" />
-                </div>
-            </header>
-            <div className="px-60 mt-[92px]">
-                <h1 className="text-3xl font-bold">
+        <div className="mx-6">
+            <div className="mt-[120px]">
+                <h1 className="text-3xl font-bold">하나둘셋 땡!</h1>
+                <h1 className="text-base text-[#7E7E7E] mt-1">
                     하고 싶은 게임을 선택해보세요
                 </h1>
-                <div className="flex gap-32 mt-[103px]">
+                <div className="mt-7 tracking-tighter">
                     {/* 카드1 */}
-                    <div className="flex-1 border border-gray-300 rounded-3xl py-[114px] shadow-sm px-10 hover:border-blue-300 hover:shadow-blue-100">
-                        <div className="text-center">
-                            <h2 className="text-3xl font-bold">
-                                영화 명대사 맞추기
-                            </h2>
-                            <p className="text-gray-500 text-lg mt-12">
+                    <div className="btn btn-ghost w-full py-4 px-3 h-auto border border-gray-300 rounded-xl shadow-md mb-6 block text-left">
+                        <div>
+                            <div className="flex justify-between mb-0.5">
+                                <h2 className="text-base font-black">
+                                    영화 명대사 맞추기
+                                </h2>
+                                <div>
+                                    <img
+                                        src="/assets/imgs/info-icon.png"
+                                        className="w-6 h-6"
+                                    />
+                                </div>
+                            </div>
+                            <p className="text-gray-500 text-sm">
                                 시간내에 명대사 빈칸을 맞춰요
                             </p>
                         </div>
                     </div>
                     {/* 카드2 */}
-                    <div className="flex-1 border border-gray-300 rounded-3xl py-[114px] shadow-sm px-10  hover:border-blue-300 hover:shadow-blue-100">
-                        <div className="text-center">
-                            <h2 className="text-3xl font-bold">
-                                명대사 보고 영화 제목 맞추기
-                            </h2>
-                            <p className="text-gray-500 text-lg mt-12">
+                    <div className="btn btn-ghost w-full py-4 px-3 h-auto border border-gray-300 rounded-xl shadow-md mb-6 block text-left">
+                        <div>
+                            <div className="flex justify-between mb-0.5">
+                                <h2 className="text-base font-black">
+                                    명대사 보고 영화 제목 맞추기
+                                </h2>
+                                <div>
+                                    <img
+                                        src="/assets/imgs/info-icon.png"
+                                        className="w-6 h-6"
+                                    />
+                                </div>
+                            </div>
+                            <p className="text-gray-500 text-sm">
                                 카드를 뒤집어서 빈칸을 확인해 제목을 맞춰요
                             </p>
                         </div>
